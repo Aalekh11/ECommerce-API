@@ -471,7 +471,10 @@ if(result.length)
 });
 
 
+app.get('/getStarted',function(req,res){
 
+    res.send("Welcome to server")
+})
 
 var server =app.listen(4000,function(){
 console.log("Server is listening on port 4000");
