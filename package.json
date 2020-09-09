@@ -1,17 +1,18 @@
 {
   "name": "api",
   "version": "1.0.0",
-  "description": "Ecommerce WebApplication using Angular and nodejs Express",
-  "main": "Server.js",
+  "description": "ECommerce WebApplication using Angular and Node Js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Aalekh11/ECommerce-API.git"
   },
   "author": "Aalekh Karhadkar",
+  "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "fast-two-sms": "^2.1.0",
@@ -23,10 +24,9 @@
     "randomstring": "^1.1.5",
     "cors": "^2.8.5"
   },
-  "engines": {
-    "node": "v12.18.2"
+ "engines": {
+    "node": "12.18.2"
   },
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/Aalekh11/ECommerce-API/issues"
   },
